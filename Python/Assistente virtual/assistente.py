@@ -1,5 +1,5 @@
 import pyttsx3
 
 assistente = pyttsx3.init()
-assistente.say("Torrent seu safado")
+assistente.say("testando 1 2 3")
 assistente.runAndWait()
