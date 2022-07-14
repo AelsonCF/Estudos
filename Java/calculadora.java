@@ -2,9 +2,10 @@ package Java;
 import java.util.Scanner;
 
 
-public class calculadora {
+public class Calculadora {
 
     public static void main(String[] args){
+
         Scanner scan = new Scanner(System.in);
         boolean ligado = true;
         // variaveis utilizadas
@@ -16,9 +17,10 @@ public class calculadora {
         float arma = n1;
 
         while(ligado){
-            if(arma > 0){
+
+            if(ligado){
                 System.out.println("Digite uma operação: [+] Soma, [-] Subtração, [/] Divisão, [*] Multiplicação");
-                String operacao = scan.nextLine();
+                String operacao = scan.next();
                 
                 if(operacao.equals("+")){
                     System.out.println("Digite outro numero:");
